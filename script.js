@@ -1,3 +1,7 @@
+let loader = document.querySelector('.loader-bg');
+window.addEventListener('load',function(){
+    loader.style.display = 'none';
+})
 const apiKey = "c0f766c5639a6d789215ce923430af67";
 const xhr = new XMLHttpRequest();
 xhr.open('GET', `https://gnews.io/api/v4/top-headlines?lang=en&country=in&token=${apiKey}`, true);
