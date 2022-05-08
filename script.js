@@ -1,8 +1,8 @@
 let loader = document.querySelector('.loader-bg');
-function checkDoc(){
+function loadComplete(){
     loader.style.display = 'none';
 }
-// setTimeout(loadComplete,1000);
+setTimeout(loadComplete,1700);
 const apiKey = "c0f766c5639a6d789215ce923430af67";
 const xhr = new XMLHttpRequest();
 xhr.open('GET', `https://gnews.io/api/v4/top-headlines?lang=en&country=in&token=${apiKey}`, true);
