@@ -1,6 +1,7 @@
-import apiKey from './apiKey.js'
 let container = document.querySelector('.container');
 let loader = document.querySelector('.loader-bg');
+const apiKey = "c0f766c5639a6d789215ce923430af67";
+
 window.addEventListener('load', ()=>{
     loader.style.display = 'none';
 });
