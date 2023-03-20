@@ -155,3 +155,15 @@ body {
     margin: 0px 6px;
     border-radius: 8px;
 }
+
+.link-violet{
+    background-color: #363062;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 30px;
+    transition: all .3s ease;
+}
+.link-violet:hover, .link-violet:focus{
+    background-color: #4D4C7D;
+}
