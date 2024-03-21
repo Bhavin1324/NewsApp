@@ -11,7 +11,6 @@ async function getNews() {
     `https://gnews.io/api/v4/top-headlines?lang=en&country=in&token=${apiKey}`
   );
   const { articles } = await response.json();
-  console.log(articles);
   articles.forEach((article, index) => {
     container.innerHTML += `<div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card mx-auto mb-4 border-0 shadow" style="width: 20rem;">
